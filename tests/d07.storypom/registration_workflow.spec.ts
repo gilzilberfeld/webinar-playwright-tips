@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { lastSavedEntryShouldInclude } from "../asserts";
+import { lastSavedEntryShouldInclude } from "./asserts";
 import { ANY_FIRST_NAME, ANY_LAST_NAME, VALID_EMAIL } from "./consts";
 import { PageFactory } from "./page_objects/pagefactory";
 
